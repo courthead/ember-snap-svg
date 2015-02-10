@@ -1,29 +1,21 @@
-# Ember-snap-svg
+# ember-snap-svg
 
-This addon uses [ember-cli-snap-svg-shim](https://github.com/courthead/ember-cli-snap-svg-shim) to allow you to import Snap.svg into your modules for your Ember CLI projects: `import Snap from 'snap-svg';`
+A shim for using [Snap.svg](http://snapsvg.io) in your Ember CLI projects.
 
-## Collaboration
+## Usage
 
-The rest of this README outlines the details of collaborating on this Ember addon:
+* `ember install:addon ember-moment`
 
-### Installation
+```js
+import Snap from 'snap-svg';
+```
+
+## Development
 
 * `git clone` this repository
 * `npm install`
 * `bower install`
-
-### Running
-
 * `ember server`
 * Visit your app at http://localhost:4200.
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+Learn more about developing Ember CLI addons here: [http://www.ember-cli.com/](http://www.ember-cli.com/)
