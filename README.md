@@ -2,9 +2,11 @@
 
 A shim for using [Snap.svg](http://snapsvg.io) in your Ember CLI projects.
 
-## Usage
+## Installation
 
-* `ember install:addon ember-moment`
+* `ember install:addon ember-snap-svg`
+
+## Usage
 
 ```js
 import Snap from 'snap-svg';
