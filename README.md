@@ -10,6 +10,7 @@ A shim for using [Snap.svg](http://snapsvg.io) in your Ember CLI projects.
 
 ```js
 import Snap from 'snap-svg';
+import mina from 'mina';
 ```
 
 ## Development
