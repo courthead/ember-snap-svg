@@ -18,4 +18,11 @@ var app = new EmberAddon();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+// TODO THIS COMMIT: necessary? write tests to find out!
+app.import(app.bowerDirectory + '/ember-cli-snap-svg-shim/snap-svg-shim.js', {
+  exports: {
+    'snap-svg': ['default']
+  }
+});
+
 module.exports = app.toTree();

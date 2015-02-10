@@ -1,7 +1,7 @@
 {
   "name": "ember-snap-svg",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Imports the Snap.svg shim for your Ember CLI project",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -35,7 +35,9 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "snap.svg",
+    "svg"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
