@@ -19,6 +19,7 @@ module.exports = {
 
     app.import(app.bowerDirectory + '/ember-cli-snap-svg-shim/snap-svg-shim.js', {
       exports: {
+        'mina': ['default'],
         'snap-svg': ['default']
       }
     });

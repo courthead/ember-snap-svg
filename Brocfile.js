@@ -21,6 +21,7 @@ var app = new EmberAddon();
 // TODO THIS COMMIT: necessary? write tests to find out!
 app.import(app.bowerDirectory + '/ember-cli-snap-svg-shim/snap-svg-shim.js', {
   exports: {
+    'mina': ['default'],
     'snap-svg': ['default']
   }
 });
