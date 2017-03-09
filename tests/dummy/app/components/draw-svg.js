@@ -1,15 +1,15 @@
 import Ember from 'ember';
-import layout from '../templates/components/draw-svg';
+import Snap from 'snap-svg';
 
 export default Ember.Component.extend({
-  layout,
 
 	didInsertElement(){
 		// First lets create our drawing surface out of existing SVG element
 		// If you want to create new surface just provide dimensions
 		// like s = Snap(800, 600);
-		var s = Snap('#svg');
+		var s = new Snap('#svg');
 
+		console.log(s);
 		// Lets create big circle in the middle:
 		var bigCircle = s.circle(150, 150, 100);
 
@@ -64,7 +64,7 @@ export default Ember.Component.extend({
 		// We could also grab pattern from SVG
 		// already embedded into our page
 		discs.attr({
-		  fill: Snap('#pattern')
+		  fill: new Snap('#pattern')
 		});
 
 		// Lets change fill of circles to gradient

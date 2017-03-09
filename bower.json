@@ -1,6 +1,10 @@
 {
   "name": "ember-snap-svg",
   "dependencies": {
-    "ember-cli-snap-svg-shim": "~0.0.3"
+    "ember-cli-snap-svg-shim": "~0.0.3",
+    "ember": "components/ember#beta"
+  },
+  "resolutions": {
+    "ember": "beta"
   }
 }

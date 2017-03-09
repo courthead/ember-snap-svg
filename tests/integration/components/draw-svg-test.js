@@ -12,14 +12,10 @@ test('it renders', function(assert) {
 
   this.render(hbs`{{draw-svg}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$().text().trim(), 'Created with SnapSnap.svgSnap.svg');
 
   // Template block usage:
-  this.render(hbs`
-    {{#draw-svg}}
-      template block text
-    {{/draw-svg}}
-  `);
+  this.render(hbs`{{#draw-svg}}template block text{{/draw-svg}}`);
 
-  assert.equal(this.$().text().trim(), 'template block text');
+  assert.equal(this.$().text().trim(), 'Created with SnapSnap.svgSnap.svg\ntemplate block text');
 });
