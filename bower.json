@@ -1,6 +1,6 @@
 {
   "name": "ember-snap-svg",
   "dependencies": {
-    "ember-cli-snap-svg-shim": "tylerturdenpants/ember-cli-snap-svg-shim#master"
+    "ember-cli-snap-svg-shim": "~0.0.3"
   }
 }
